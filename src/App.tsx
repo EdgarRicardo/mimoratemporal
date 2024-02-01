@@ -1,12 +1,8 @@
 import './css/App.css'
-import { useState } from 'react';
-
 const App = () => {
-  const [option, setOption] = useState(0);
-
   return (
     <>
-
+      <h1>MI AMOR ATEMPORAL ❤️</h1>
     </>
   )
 }
