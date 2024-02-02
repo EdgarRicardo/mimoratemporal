@@ -9,10 +9,11 @@ import { Captions, Fullscreen, Slideshow, Thumbnails } from 'yet-another-react-l
 
 const App = () => {
   const data = imgsRamdom.map((img, idx) => {
-    return { idx, src: `https://drive.google.com/thumbnail?id=${img.id}&sz=w1000`, ...img}
-});
+    return { idx, src: `https://drive.google.com/thumbnail?id=${img.id}&sz=w1000`, ...img }
+  });
   const weightedRand = (spec: any) => { let i, sum = 0, r = Math.random(); for (i in spec) { sum += spec[i]; if (r <= sum) return i; } }
   const [index, setIndex] = useState(-1);
+
   return (
     <>
       <h1>MI AMOR ATEMPORAL ❤️</h1>
@@ -20,7 +21,7 @@ const App = () => {
         {data.map((img) => {
           const span = weightedRand({ 1: 0.65, 2: 0.25, 3: 0.10 });
           const classS = 'card span-' + span + ' c-' + weightedRand({ 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2, 5: 0.2 })
-          return <div className={classS} style={{backgroundImage:`url(${img.src})`,cursor:"pointer"}} key={img.idx} onClick={() => setIndex(img.idx)} />
+          return <div className={classS} style={{ backgroundImage: `url(${img.src})`, cursor: "pointer" }} key={img.idx} onClick={() => setIndex(img.idx)} />
         })}
       </div>
       <Lightbox
@@ -29,9 +30,12 @@ const App = () => {
         close={() => setIndex(-1)}
         slides={data}
         plugins={[Fullscreen, Slideshow, Thumbnails, Captions]}
-        captions={{descriptionTextAlign:"end"}}
-        slideshow={{delay:3000}}
+        captions={{ descriptionTextAlign: "end" }}
+        slideshow={{ delay: 3000 }}
       />
+      <iframe id='song' width="0" height="0"
+        src="https://www.youtube.com/embed/ZeOJ98mSOuE?si=F7hTFXKIvoYnoshp&amp;start=8&autoplay=1"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
     </>
   )
 }
