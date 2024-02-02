@@ -18,7 +18,7 @@ const App = () => {
       <h1>MI AMOR ATEMPORAL ❤️</h1>
       <div className='grid'>
         {data.map((img) => {
-          const span = weightedRand({ 1: 0.6, 2: 0.35, 3: 0.15 });
+          const span = weightedRand({ 1: 0.65, 2: 0.25, 3: 0.10 });
           const classS = 'card span-' + span + ' c-' + weightedRand({ 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2, 5: 0.2 })
           return <div className={classS} style={{backgroundImage:`url(${img.src})`,cursor:"pointer"}} key={img.idx} onClick={() => setIndex(img.idx)} />
         })}

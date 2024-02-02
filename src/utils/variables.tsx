@@ -4,7 +4,7 @@ const imgsData = [
         "mimeType": "image/jpeg",
         "id": "1pPUVU_u9rhTDY7_elyy5zIlrLxlrHXBF",
         "name": "IMG20230401221511_20240201145557.jpg",
-        title: "Mujer de hermosura inigualable",
+        title: "Hermosura inigualable",
         description: "Brillo de tus ojos, pelo, labios, cuerpo, que me hipnotizan y dejan asombrado",
 
     },
@@ -14,287 +14,271 @@ const imgsData = [
         "id": "1pPJ_oUCVXQJPfe1Pf1CbOYboGS7l_1cw",
         "name": "IMG20231027182510_20240201145557.jpg",
         title: "Juntos por casualidad",
-        description: "Fotos que entre la simpleza, surge la belleza"
+        description: "De la simpleza surge la belleza"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1pNSOxTJFNJMOjJsxlfxsJSE9eB_9T_Em",
         "name": "IMG20231028195828_20240201145557.jpg",
-        title: "",
-        description: ""
+        title: "Slinky love",
+        description: "Mi compañera de disfraces 🐶"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1pI1Bif4b8TdVatRHJGpSYAxweaoptHV_",
         "name": "IMG20231028201936_20240201145557.jpg",
-        title: "",
-        description: ""
+        title: "Slinky love",
+        description: "Mi pareja de aventuras en un día de halloween 😱"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1pH7tKeLowXIuCnmCjXnoI4FLYVw5UQNR",
         "name": "IMG20231028202006_20240201145557.jpg",
-        title: "",
-        description: ""
+        title: "Slinky love",
+        description: "El alma que me complementa en un mismo disfraz"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1pG4y805Nj2hYnuud80kfzYWo8j_RBLnf",
         "name": "IMG20231028202601_20240201145557.jpg",
-        title: "",
-        description: ""
+        title: "Slinky love",
+        description: "Diversión que llena mi ❤️‍🔥"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1pFXCOOYVMzoWAam0783zCTasLM7viHgZ",
         "name": "IMG20231209190649_20240201145556.jpg",
-        title: "",
-        description: ""
+        title: "Belleza a la vista",
+        description: "Mi ojos te miran y perdidos en ti quedan"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1pCSWZrbZqCeViQiKKqjsils6EWfAnMWp",
         "name": "IMG20231209190723_20240201145556.jpg",
-        title: "",
-        description: ""
+        title: "Caminata nocturna",
+        description: "Me acompañas en la rutina y no necesito más"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1p9NFP5yeaByjokN4DiP6D2CGGpWUKKBR",
         "name": "IMG20231209192945_20240201145556.jpg",
-        title: "",
-        description: ""
+        title: "Mirror classic",
+        description: "Mi acomapañante de un sinfín de fotos en el espejo 🪞"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1p0t211jn7hZjgPs_FTs5ZFjJtECP4h6L",
         "name": "IMG20231209204644_20240201145556.jpg",
-        title: "",
-        description: ""
+        title: "Magia musical",
+        description: "Contigo a todos los conciertos del mundo 🎵"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1p0EdK_LY7-i9nifBQDeXyBgdQaDuZhUs",
         "name": "IMG20231209233452_20240201145556.jpg",
-        title: "",
-        description: ""
+        title: "Mi paraíso lunar",
+        description: "Te escucho y te siento a cada momento"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1p-DT0U4Aeq05M7b2kL3YezLTjEGUQ4Q5",
         "name": "IMG20240101003431_20240201145556.jpg",
-        title: "",
-        description: ""
+        title: "Nunca me faltes en un inicio",
+        description: "Un año nuevo no estaria completo sin ti"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1oreSfjbLADDmawSoN-SoiOw267nS7QHv",
         "name": "IMG20240120185500_20240201145555.jpg",
-        title: "",
-        description: ""
+        title: "Fresita 🍓",
+        description: "Un noche de tragadera"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1oqMPJhoqMuljlltOxjyizLUfZUllifq_",
         "name": "IMG20240120185503_20240201145555.jpg",
-        title: "",
-        description: ""
+        title: "Picnic nocturno",
+        description: "Quisiera siempre noches a tu lado jugando hasta morir de cansancio"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1oo3CM_zlUzZtx8OAQnyO1WD6LCA2gyf8",
         "name": "IMG20240128124120_20240201145554.jpg",
-        title: "",
-        description: ""
+        title: "Lago apacado",
+        description: "Ningun paisaje es tan bonito cuando estan tú"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1okrHvoL0NBhn-_5N6JBX3KngjNlwTbxe",
         "name": "IMG20240128131442_20240201145554.jpg",
-        title: "",
-        description: ""
-    },
-    {
-        "kind": "drive#file",
-        "mimeType": "image/jpeg",
-        "id": "1ogsXN6_YNsmNz5-Wjd0v17Bs0OSFqIGX",
-        "name": "IMG20240128132128_20240201145554.jpg",
-        title: "",
-        description: ""
+        title: "Un día una foto",
+        description: "No importa la aventura siempre que este conmigo"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1oewvGVkuaNCUu8Pi9juR0htYi71aGiko",
         "name": "IMG20240128142148_20240201145553.jpg",
-        title: "",
-        description: ""
+        title: "Portón del amor",
+        description: "Abreme la puerta de tu ser y nunca me dejes salir"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1obds8fQerCJrEGNev3Jee55gZjCHJ7WV",
         "name": "IMG20240128145959_20240201145553.jpg",
-        title: "",
-        description: ""
+        title: "Besame sempiternamente",
+        description: "En el susurro de tus labios, encuentro versos que mi alma no sabía que anhelaba"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1oOedWhALLctyoVML-jK8WOhyqCm10zLT",
         "name": "IMG20240128150220_20240201145553.jpg",
-        title: "",
-        description: ""
+        title: "Arbol de vida",
+        description: "Tu amor es como un árbol: crece con raíces fuertes y florece en abrazos que son sus ramas"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1oGKyucV2U-2ccD5Ex7ZRLazZShyn2uVz",
         "name": "IMG20230915181752_20240201145553.jpg",
-        title: "",
-        description: ""
+        title: "Encanto visual 😍",
+        description: "Tu mirada, el amor se revela en destellos que embrujan corazones"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1oEFaiaeG7MeL0azPKUbLyvv0TdXS4qUz",
         "name": "IMG20230915181815_20240201145552.jpg",
-        title: "",
-        description: ""
+        title: "Lenguita 👅",
+        description: "Capturando travesuras en un clic de lengua y sonrisa"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1oDu6DVBZzKY7iKS6lWWYJ2LpcbFVPpeq",
         "name": "IMG20230916131221_20240201145552.jpg",
-        title: "",
-        description: ""
+        title: "Picnic bajo un atardecer",
+        description: "Atardecer de sabores, picnic de colores y tu y yo acostados bajo la sombra de arboles"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1o4vDGGNxVY0ZQEWCS4k0ozauc7_st3jk",
         "name": "IMG20230812152628_20240201145551.jpg",
-        title: "",
-        description: ""
+        title: "Castillo del dragón",
+        description: "En el universo diminuto de las miniaturas, descubrí un amor que, aunque pequeño en tamaño, es inmenso en significado"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1o4noNTFadKNgUaj84LzMHRMpvBg_uzQ4",
         "name": "IMG20230909170413_20240201145551.jpg",
-        title: "",
-        description: ""
+        title: "Amor elegante",
+        description: "El amor, un baile elegante entre almas afines"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1o4MY5BY5QKxfva3d97YacxQY44S0YwPI",
         "name": "IMG20230909194634_20240201145551.jpg",
-        title: "",
-        description: ""
+        title: "Beso eskimal",
+        description: "un delicado encuentro de narices que trasciende el frío para derretir el hielo entre dos corazones"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1o11itYRbKmxHr73ZZEhzqeEA67kMkODR",
         "name": "IMG-20230704-WA0012.jpg",
-        title: "",
-        description: ""
+        title: "Mamoncitos",
+        description: "Encontramos el amor como un refugio auténtico, donde la complicidad florece entre sonrisas cómplices y miradas sinceras"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1nuE57Lh2j00Qjx7_aBsmKKw_CO4scwN_",
         "name": "IMG20230722204334_20240201145551.jpg",
-        title: "",
-        description: ""
+        title: "Eso mamona!!!",
+        description: "Éxito en la vida, victoria en el amor: la fórmula perfecta para una vida plena"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1ntYPaOL27CO-L4nnKZ_ev94RYa3UvJwN",
         "name": "IMG20230812142411_20240201145551.jpg",
-        title: "",
-        description: ""
+        title: "Hermosa brujita 🪄",
+        description: "Encontré el amor en la poción menos esperada, donde el corazón decide su propio destino."
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1nomuAX8h89cX3PnrXLappZYx7-oiMK9c",
         "name": "IMG20230701103339_20240201145551.jpg",
-        title: "",
-        description: ""
+        title: "Espejito playero",
+        description: "Navegemos en el mar que nos lleva a la plenitud del amor"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1nnmZIXqt8PYUKY8R-hKWmsc3houhrrjY",
         "name": "IMG20230701120752_20240201145551.jpg",
-        title: "",
-        description: ""
-    },
-    {
-        "kind": "drive#file",
-        "mimeType": "image/jpeg",
-        "id": "1nh0r_U6RRDf_THSzkh1Utyt-2AIbyvev",
-        "name": "IMG20230701121901_20240201145551.jpg",
-        title: "",
-        description: ""
+        title: "Lentes de amor",
+        description: "Bajo lentes de sol azul celeste, se esconde un amor radiante"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1nRT8AfEypfgBc-5mZtScaOOMWE6mWPBR",
         "name": "IMG20230629120004.jpg",
-        title: "",
-        description: ""
+        title: "Hombro de apoyo",
+        description: "Encontrar consuelo y fortaleza en sentirte recargada junto a mi hombro"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1nQmr8zrgd3gO-fCsBfMEBTMEurzkAp9a",
         "name": "IMG_20230629_182734.jpg",
-        title: "",
-        description: ""
+        title: "Columpio de arena 🐢",
+        description: "Tortugas recién nacidas, carrerita hacia el mar: comienzo veloz de un viaje lleno de vida y amor"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1nGbuVIn75_h42jXygWdjL9ZjcGWc3X1f",
         "name": "IMG20230630111904.jpg",
-        title: "",
-        description: ""
+        title: "Acaloradamente juntitos",
+        description: "Un amor que supera cualquier temperatura"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1nGNbmBmW3TTSFqS0J0OlzgaYuFXNMg2_",
         "name": "IMG20230630122753.jpg",
-        title: "",
-        description: ""
+        title: "Lancha ⛵",
+        description: "Juntos explorando horizontes de gran belleza"
     },
     {
         "kind": "drive#file",
         "mimeType": "image/jpeg",
         "id": "1nA7va90C-nbx5LTMX7Ka23bVOAxasXg0",
         "name": "IMG20230628095545_20240201145550.jpg",
-        title: "",
-        description: ""
+        title: "Escaleras que me llevan al mar",
+        description: "Un descenso hacia la serenidad del océano, donde encuentro paz y amor sin fin"
     },
     {
         "kind": "drive#file",

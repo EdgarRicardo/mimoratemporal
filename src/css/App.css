@@ -71,3 +71,7 @@
   grid-row-end: span 3;
   min-height: 400px;
 }
+
+.yarl__slide_description{
+  hyphens: none;
+}
