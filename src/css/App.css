@@ -85,3 +85,29 @@ audio{
 .yarl__slide_description{
   hyphens: none;
 }
+
+.overlay {
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.96);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 3s ease-in-out, visibility 3s;
+}
+
+.overlay.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.splash-header {
+  height : 50%;
+  width: 300px;
+}

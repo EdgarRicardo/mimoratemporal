@@ -4,7 +4,7 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 import Lightbox from 'yet-another-react-lightbox';
 import "yet-another-react-lightbox/plugins/captions.css";
 import { imgsRamdom } from './utils/variables';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Captions, Fullscreen, Slideshow, Thumbnails } from 'yet-another-react-lightbox/plugins';
 
 const App = () => {
@@ -13,8 +13,22 @@ const App = () => {
   });
   const weightedRand = (spec: any) => { let i, sum = 0, r = Math.random(); for (i in spec) { sum += spec[i]; if (r <= sum) return i; } }
   const [index, setIndex] = useState(-1);
+  const audioRef = useRef<HTMLAudioElement>(null);
+  const [visible, setVisible] = useState(true);
+
+  const handleDivClick = () => {
+    setVisible(false);
+    setTimeout(() => {
+      audioRef.current!.play();
+    }, 2000); 
+  };
+
+
   return (
     <>
+      <div className={`overlay ${visible ? 'visible' : ''}`} onClick={handleDivClick}>
+        <h1 className="splash-header">Nuestra aventura comienza ❤️👩‍❤️‍💋‍👨</h1>
+      </div>
       <h1>MI AMOR ATEMPORAL ❤️</h1>
       <div className='grid'>
         {data.map((img) => {
@@ -33,7 +47,7 @@ const App = () => {
         slideshow={{ delay: 3000 }}
       />
       <div className='dv-audio'>
-        <audio loop src={import.meta.env.BASE_URL+"/paraiso_lunar.mp3"} controls onLoadedData={e => { e.currentTarget.volume = 0.5; e.currentTarget.play() }}></audio>
+        <audio ref={audioRef} loop src={import.meta.env.BASE_URL + "/paraiso_lunar.mp3"} controls onLoadedData={e => { /* e.currentTarget.volume = 0.5; e.currentTarget.play() */ }}></audio>
       </div>
     </>
   )
