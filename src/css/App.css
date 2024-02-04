@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+audio{
+  width: 48px;
+  margin-top: 12px
+}
+
+.dv-audio{
+  display: flex;
+  justify-content: end;
+}
+
 .row {
   display: flex;
   flex-flow: column;
