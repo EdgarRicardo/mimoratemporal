@@ -462,6 +462,22 @@ const imgsData = [
         "name": "IMG_20221222_230452.jpg",
         title: "El inicio de todo 💗",
         description: "En esos primeros momentos, tejimos sueños y construimos promesas, marcando el comienzo de una historia que perdura en el tiempo."
-    }
+    },
+    {
+        "kind": "drive#file",
+        "mimeType": "video/mp4",
+        "id": "1r-l0vYdvOw-CHBriM8DOvA1CKKliOakN",
+        "name": "VID20230916152354.mp4",
+        title: "Hola chicos y chica 😄",
+        description: "Somos las locuras que solo surgen de una conexión única."
+      },
+      {
+        "kind": "drive#file",
+        "mimeType": "video/mp4",
+        "id": "1qyynXtZ5X98fnlMot-2CMgiOZfwAJSHS",
+        "name": "VID_20231223133202.mp4",
+        title: "Rueda de mi fortuna",
+        description: "En esos primeros momentos, tejimos sueños y construimos promesas, marcando el comienzo de una historia que perdura en el tiempo."
+      },
 ]
 export const imgsRamdom = imgsData.sort(() => Math.random() - 0.5);
