@@ -28,7 +28,7 @@ const App = () => {
   return (
     <>
       <div className={`overlay ${visible ? 'visible' : ''}`} onClick={handleDivClick}>
-        <h1 className="splash-header">Nuestra aventura comienza ❤️👩‍❤️‍💋‍👨</h1>
+        <h1 className="splash-header">Nuestra aventura comienza ❤️👩‍❤️‍💋‍👨 Album ➡️</h1>
       </div>
       <h1>MI AMOR ATEMPORAL ❤️</h1>
       <div className='grid'>
