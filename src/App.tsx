@@ -13,7 +13,6 @@ const App = () => {
   });
   const weightedRand = (spec: any) => { let i, sum = 0, r = Math.random(); for (i in spec) { sum += spec[i]; if (r <= sum) return i; } }
   const [index, setIndex] = useState(-1);
-  
   return (
     <>
       <h1>MI AMOR ATEMPORAL ❤️</h1>
@@ -34,7 +33,7 @@ const App = () => {
         slideshow={{ delay: 3000 }}
       />
       <div className='dv-audio'>
-        <audio loop src="/paraiso_lunar.mp3" controls onLoadedData={e => { e.currentTarget.volume = 0.5; e.currentTarget.play() }}></audio>
+        <audio loop src={import.meta.env.BASE_URL+"/paraiso_lunar.mp3"} controls onLoadedData={e => { e.currentTarget.volume = 0.5; e.currentTarget.play() }}></audio>
       </div>
     </>
   )
