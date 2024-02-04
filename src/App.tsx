@@ -13,6 +13,12 @@ const App = () => {
   });
   const weightedRand = (spec: any) => { let i, sum = 0, r = Math.random(); for (i in spec) { sum += spec[i]; if (r <= sum) return i; } }
   const [index, setIndex] = useState(-1);
+  //const audioBg = document.getElementById("audioBg") as HTMLAudioElement;
+  //audioBg.autoplay = true;
+  //audioBg.volume = 0.2;
+  //audioBg.play();
+
+  
 
   return (
     <>
@@ -33,9 +39,7 @@ const App = () => {
         captions={{ descriptionTextAlign: "end" }}
         slideshow={{ delay: 3000 }}
       />
-      <iframe id='song' width="0" height="0"
-        src="https://www.youtube.com/embed/ZeOJ98mSOuE?si=F7hTFXKIvoYnoshp&amp;start=8&autoplay=1"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+      <audio id="audioBg" loop src="/paraiso_lunar.mp3" onLoadedData={e=>{e.currentTarget.volume = 0.5; e.currentTarget.play()}}></audio>
     </>
   )
 }
