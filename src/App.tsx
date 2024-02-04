@@ -38,7 +38,7 @@ const App = () => {
     setVisible(false);
     setTimeout(() => {
       audioRef.current!.play();
-      audioRef.current!.volume = 0.10;
+      audioRef.current!.volume = 0.025;
     }, 800); 
   };
 
