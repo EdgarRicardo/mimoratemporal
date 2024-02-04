@@ -21,7 +21,7 @@ const App = () => {
     setTimeout(() => {
       audioRef.current!.play();
       audioRef.current!.volume = 0.25;
-    }, 2000); 
+    }, 800); 
   };
 
 
