@@ -477,7 +477,7 @@ const imgsData = [
         "id": "1qyynXtZ5X98fnlMot-2CMgiOZfwAJSHS",
         "name": "VID_20231223133202.mp4",
         title: "Rueda de mi fortuna",
-        description: "En esos primeros momentos, tejimos sueños y construimos promesas, marcando el comienzo de una historia que perdura en el tiempo."
+        description: "Pequeños momento que giran y giran formando mariposas de amor en el estomago."
       },
 ]
 export const imgsRamdom = imgsData.sort(() => Math.random() - 0.5);
