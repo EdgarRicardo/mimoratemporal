@@ -6,7 +6,6 @@
 }
 
 audio{
-  width: 48px;
   margin-top: 12px
 }
 
@@ -99,7 +98,7 @@ audio{
   justify-content: center;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 3s ease-in-out, visibility 3s;
+  transition: opacity 1s ease-in-out, visibility 1s;
 }
 
 .overlay.visible {
