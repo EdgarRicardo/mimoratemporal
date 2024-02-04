@@ -4,7 +4,7 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 import Lightbox from 'yet-another-react-lightbox';
 import "yet-another-react-lightbox/plugins/captions.css";
 import { imgsRamdom } from './utils/variables';
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Captions, Fullscreen, Slideshow, Thumbnails } from 'yet-another-react-lightbox/plugins';
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
     setVisible(false);
     setTimeout(() => {
       audioRef.current!.play();
+      audioRef.current!.volume = 0.5;
     }, 2000); 
   };
 
@@ -47,7 +48,7 @@ const App = () => {
         slideshow={{ delay: 3000 }}
       />
       <div className='dv-audio'>
-        <audio ref={audioRef} loop src={import.meta.env.BASE_URL + "/paraiso_lunar.mp3"} controls onLoadedData={e => { /* e.currentTarget.volume = 0.5; e.currentTarget.play() */ }}></audio>
+        <audio ref={audioRef} loop src={import.meta.env.BASE_URL + "/paraiso_lunar.mp3"} controls/>
       </div>
     </>
   )
