@@ -3,12 +3,11 @@ import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import Lightbox from 'yet-another-react-lightbox';
 import "yet-another-react-lightbox/plugins/captions.css";
-import { imgsRamdom } from '../utils/variables';
+import { imgsRamdom, isValetinesDay } from '../utils/variables';
 import { useState } from 'react';
 import { Captions, Fullscreen, Slideshow, Thumbnails, Video } from 'yet-another-react-lightbox/plugins';
 
 const Album = () => {
-  const fechaActual = new Date();
   const data = imgsRamdom.map((img, idx) => {
     const url = `https://drive.google.com/thumbnail?id=${img.id}&sz=w1000`;
     if (img.mimeType === "video/mp4") {
@@ -32,7 +31,6 @@ const Album = () => {
   });
   const weightedRand = (spec: any) => { let i, sum = 0, r = Math.random(); for (i in spec) { sum += spec[i]; if (r <= sum) return i; } }
   const [index, setIndex] = useState(-1);
-  const isValetinesDay = (fechaActual.getDate() + "/" + (fechaActual.getMonth() + 1)) === "13/2";
 
   return (
     <>

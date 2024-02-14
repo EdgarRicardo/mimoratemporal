@@ -2,10 +2,9 @@ import './css/App.css'
 import { useRef, useState } from 'react';
 import Album from './components/Album';
 import Hearts from './components/Hearts';
+import { isValetinesDay } from './utils/variables';
 
 const App = () => {
-  const fechaActual = new Date();
-  const isValetinesDay = (fechaActual.getDate() + "/" + (fechaActual.getMonth() + 1)) === "14/2";
   const audioRef = useRef<HTMLAudioElement>(null);
   const [visible, setVisible] = useState(true);
   const [accept, setAccept] = useState<Number>(isValetinesDay ? 0 : 2);
@@ -45,7 +44,7 @@ const App = () => {
   return (
     <>
       {!isValetinesDay ? <div className={`overlay ${visible ? 'visible' : ''}`} onClick={() => handleDivClick(2)}>
-        <h1 className="splash-header">Nuestra aventura comienza ❤️👩‍❤️‍💋‍👨 Album ➡️</h1>
+        <h1 className="splash-header" style={{cursor: "pointer"}}>Nuestra aventura comienza ❤️👩‍❤️‍💋‍👨 Album ➡️</h1>
       </div> : <div className={`overlay ${visible ? 'visible' : ''}`}>
         <h1 className="splash-header">Eres muy especial para mi 👩‍❤️‍💋‍👨</h1>
         <h2 className="splash-header">¿Quieres ser mi San Valentín?</h2>
