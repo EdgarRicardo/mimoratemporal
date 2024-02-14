@@ -4,7 +4,7 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 import Lightbox from 'yet-another-react-lightbox';
 import "yet-another-react-lightbox/plugins/captions.css";
 import { imgsRamdom } from '../utils/variables';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import { Captions, Fullscreen, Slideshow, Thumbnails, Video } from 'yet-another-react-lightbox/plugins';
 
 const Album = () => {
