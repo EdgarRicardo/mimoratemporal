@@ -5,7 +5,7 @@ import Hearts from './components/Hearts';
 
 const App = () => {
   const fechaActual = new Date();
-  const isValetinesDay = (fechaActual.getDate() + "/" + (fechaActual.getMonth() + 1)) === "13/2";
+  const isValetinesDay = (fechaActual.getDate() + "/" + (fechaActual.getMonth() + 1)) === "14/2";
   const audioRef = useRef<HTMLAudioElement>(null);
   const [visible, setVisible] = useState(true);
   const [accept, setAccept] = useState<Number>(isValetinesDay ? 0 : 2);
