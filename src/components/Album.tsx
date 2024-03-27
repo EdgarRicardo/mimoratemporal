@@ -34,7 +34,6 @@ const Album = () => {
 
   return (
     <>
-      <h1>MI AMOR ATEMPORAL ❤️</h1>
       {isValetinesDay && <h2>Se mi San Valentín siempre 💌</h2>}
       <div className='grid'>
         {data.map((img) => {
