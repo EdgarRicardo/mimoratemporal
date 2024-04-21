@@ -483,4 +483,6 @@ const imgsData = [
 export const imgsRamdom = imgsData.sort(() => Math.random() - 0.5);
 
 const fechaActual = new Date();
-export const isValetinesDay = (fechaActual.getDate() + "/" + (fechaActual.getMonth() + 1)) === "14/2";
+console.log((fechaActual.getDate() + "/" + (fechaActual.getMonth() + 1)));
+
+export const isValidDay = (date: string) => (fechaActual.getDate() + "/" + (fechaActual.getMonth() + 1)) === date;

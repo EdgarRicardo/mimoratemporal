@@ -3,7 +3,7 @@ import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import Lightbox from 'yet-another-react-lightbox';
 import "yet-another-react-lightbox/plugins/captions.css";
-import { imgsRamdom, isValetinesDay } from '../utils/variables';
+import { imgsRamdom, isValidDay } from '../utils/variables';
 import { useState } from 'react';
 import { Captions, Fullscreen, Slideshow, Thumbnails, Video } from 'yet-another-react-lightbox/plugins';
 
@@ -34,7 +34,7 @@ const Album = () => {
 
   return (
     <>
-      {isValetinesDay && <h2>Se mi San Valentín siempre 💌</h2>}
+      {isValidDay("14/2") && <h2>Se mi San Valentín siempre 💌</h2>}
       <div className='grid'>
         {data.map((img) => {
           const span = weightedRand({ 1: 0.65, 2: 0.25, 3: 0.10 });

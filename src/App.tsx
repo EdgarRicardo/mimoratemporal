@@ -2,13 +2,13 @@ import './css/App.css'
 import { useRef, useState } from 'react';
 import Album from './components/Album';
 import Hearts from './components/Hearts';
-import { isValetinesDay } from './utils/variables';
+import {isValidDay } from './utils/variables';
 import Birthday from './components/Birthday';
 
 const App = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [visible, setVisible] = useState(true);
-  const [accept, setAccept] = useState<Number>(isValetinesDay ? 0 : 2);
+  const [accept, setAccept] = useState<Number>(isValidDay("14/2") ? 0 : 2);
   const [mainOpt, setMainOpt] = useState(0);
 
   const handleValentinesOpt = (option: number) => {
@@ -57,7 +57,7 @@ const App = () => {
         <nav>
           <ul>
             <li className={mainOpt === 0 ? 'active' : ''} onClick={_ => handleMainOpt(0)}>🖼 Album</li>
-            <li className={mainOpt === 1 ? 'active' : ''} onClick={_ => handleMainOpt(1)}>❤ Mi preciosa</li>
+            {isValidDay("4/4") ? <li className={mainOpt === 1 ? 'active' : ''} onClick={_ => handleMainOpt(1)}>❤ Mi preciosa</li> : null}
           </ul>
         </nav>
         {main[mainOpt].render}
@@ -71,7 +71,7 @@ const App = () => {
 
   return (
     <>
-      {!isValetinesDay ? <div className={`overlay ${visible ? 'visible' : ''}`} onClick={() => handleValentinesOpt(2)}>
+      {!isValidDay("14/2") ? <div className={`overlay ${visible ? 'visible' : ''}`} onClick={() => handleValentinesOpt(2)}>
         <h1 className="splash-header" style={{ cursor: "pointer" }}>Nuestra aventura comienza ❤️👩‍❤️‍💋‍👨 Vamos ➡️</h1>
       </div> : <div className={`overlay ${visible ? 'visible' : ''}`}>
         <h1 className="splash-header">Eres muy especial para mi 👩‍❤️‍💋‍👨</h1>
